@@ -1,0 +1,51 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch ConvergencePlot",
+            "request": "launch",
+            "mainClass": "ConvergencePlot",
+            "projectName": "TSP_50bbf30c",
+            "vmArgs": "--module-path C:/javafx-sdk-18.0.1/lib/ --add-modules=javafx.graphics,javafx.controls"
+        },
+        {
+            "type": "java",
+            "name": "Launch GeneticTSPSolver",
+            "request": "launch",
+            "mainClass": "GeneticTSPSolver",
+            "projectName": "TSP_50bbf30c"
+        },
+        {
+            "type": "java",
+            "name": "Launch ScatterPlot",
+            "request": "launch",
+            "mainClass": "tsp.ScatterPlot",
+            "projectName": "TSP_50bbf30c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch ScatterPlot",
+            "request": "launch",
+            "mainClass": "ScatterPlot",
+            "projectName": "TSP_50bbf30c",
+            "vmArgs": "--module-path C:/javafx-sdk-18.0.1/lib/ --add-modules=javafx.graphics,javafx.controls"
+        },
+        {
+            "type": "java",
+            "name": "Launch TSP",
+            "request": "launch",
+            "mainClass": "TSP",
+            "projectName": "TSP_50bbf30c"
+        }
+    ]
+}
